@@ -8,6 +8,9 @@ export default class PostView extends Component {
     return (
       <Layout>
 				<div>
+					{data.markdownRemark.frontmatter.thumbnail && 
+						<img src={data.markdownRemark.frontmatter.thumbnail} alt="Inmans's"/> 
+					}
 					<span>Posted by {data.markdownRemark.frontmatter.author} on {data.markdownRemark.frontmatter.date}</span>
 					<h1>{data.markdownRemark.frontmatter.title}</h1>
 					<div dangerouslySetInnerHTML= {{
@@ -31,6 +34,7 @@ export const query = graphql`
 					title
 					date(formatString:"MMMM DD, YYYY")
 					author
+					thumbnail
 			}
 		}
 	}

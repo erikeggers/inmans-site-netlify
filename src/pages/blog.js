@@ -28,6 +28,7 @@ query BlogMeta {
           title
           date(formatString: "MMMM, DD YYYY")
           author
+          thumbnail
         }
         fields {
           slug
