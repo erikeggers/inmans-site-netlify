@@ -1,5 +1,5 @@
 ---
-title: "New blog"
+title: "Testing New blog"
 date: "2018-07-18"
 author: "Dwight Inman"
 ---
