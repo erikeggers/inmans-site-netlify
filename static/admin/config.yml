@@ -17,7 +17,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
   - label: "Recipies"
     name: "recipies"
-    folder: "src/posts"
+    folder: "src/recipies"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
