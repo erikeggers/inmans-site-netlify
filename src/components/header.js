@@ -9,7 +9,7 @@ const HeaderWrapper = styled.div`
   marginBottom: 1.45rem;
   h1 {
     img {
-      height: 80px;
+      
     }
   }
 `
@@ -17,6 +17,20 @@ const HeaderContainer = styled.div`
   margin: 0 auto;
   max-width: 960px;
   padding: 1.45rem 1.0875rem;
+  nav {
+    border-bottom: 2px solid #777;
+    ul {
+      display: flex;
+      justify-content: space-evenly;
+      list-style: none;
+      font-size: 20px;
+      li a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #021F43;
+      }
+    }
+  }
 `
 
 const Header = ({ siteTitle }) => (
@@ -37,6 +51,9 @@ const Header = ({ siteTitle }) => (
       <ul>
         <li>
           <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/products">Products</Link>
         </li>
         <li>
           <Link to="/about">About</Link>
