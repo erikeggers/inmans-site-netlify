@@ -2,6 +2,7 @@
 title: Chili-Rubbed Ribs
 date: 2018-10-09T03:03:27.798Z
 thumbnail: /assets/ribs.jpg
+type: recipe
 ---
 ## Ingredients
 

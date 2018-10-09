@@ -1,25 +1,25 @@
 import React from 'react'
-import PostListing from '../components/Posts/PostListing'
+import RecipeListing from '../components/Posts/PostListing'
 import Layout from '../components/layout'
 import { graphql } from 'gatsby'
 
-const BlogPage = ({data}) => (
+const RecipesPage = ({data}) => (
   <Layout>
     <div>
       {data.allMarkdownRemark.edges.map(({node}) => (
-        <PostListing key={node.id} post={node} />
+        <RecipeListing key={node.id} post={node} />
         ))}
     </div>
   </Layout>
 )
 
-export default BlogPage
+export default RecipesPage
 
 export const query = graphql`
-query BlogMeta {
+query RecipeMeta {
   allMarkdownRemark(
     sort: { order: DESC, fields: [frontmatter___date]},
-    filter: { frontmatter: {type: { eq:"blog" }}
+    filter: { frontmatter: {type: { eq:"recipe" }}
   }) {
     edges {
       node {

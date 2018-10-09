@@ -2,6 +2,7 @@
 title: "Another blog"
 date: "2018-07-20"
 author: "Dwight Inman"
+type: blog
 ---
 
 Affogato coloring book hot chicken, austin skateboard migas poke waistcoat mustache asymmetrical succulents kickstarter activated charcoal. Meh pickled vaporware, subway tile pabst disrupt prism pug. Next level DIY vape, shaman air plant cronut before they sold out tote bag you probably haven't heard of them seitan authentic. Offal fixie XOXO actually tacos direct trade umami dreamcatcher twee. Everyday carry PBR&B sriracha poke banjo skateboard tilde poutine godard helvetica literally intelligentsia semiotics.

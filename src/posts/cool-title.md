@@ -2,6 +2,7 @@
 title: Cool title
 date: 2018-10-08T12:24:02.774Z
 thumbnail: /assets/blade4.jpg
+type: blog
 ---
 # _Test_
 

@@ -2,6 +2,7 @@
 title: "Testing New blog"
 date: "2018-07-18"
 author: "Dwight Inman"
+type: blog
 ---
 
 Lorem ipsum dolor amet umami hashtag 8-bit fam venmo ennui messenger bag pork belly listicle farm-to-table tousled sriracha. Succulents tumeric pok pok butcher man braid. Gochujang meditation polaroid locavore sustainable, chartreuse iPhone tumeric. Pop-up kitsch woke bitters retro offal.

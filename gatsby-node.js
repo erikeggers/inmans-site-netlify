@@ -12,7 +12,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     createNodeField({
       node,
       name: "slug",
-      value: `/blog/posts${slug}`
+      value: `/posts${slug}`
     })
   }
 }
@@ -21,22 +21,40 @@ exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
   return new Promise((resolve, reject) => {
     graphql(`
-      {
-        allMarkdownRemark {
-          edges {
-            node {
-              fields {
-                slug
-              }
+    {
+      blog: allMarkdownRemark(filter: {frontmatter: {type: {eq: "blog"}}}) {
+        edges {
+          node {
+            fields {
+              slug
             }
           }
         }
       }
+      recipes: allMarkdownRemark(filter: {frontmatter: {type: {eq: "recipe"}}}) {
+        edges {
+          node {
+            fields {
+              slug
+            }
+          }
+        }
+      }
+    }
     `).then(result => {
-      result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+      result.data.blog.edges.forEach(({ node }) => {
         createPage({
           path: node.fields.slug,
           component: path.resolve("./src/posts/PostPage.js"),
+          context: {
+            slug: node.fields.slug
+          }
+        })
+      })
+      result.data.recipes.edges.forEach(({ node }) => {
+        createPage({
+          path: node.fields.slug,
+          component: path.resolve("./src/recipes/RecipePage.js"),
           context: {
             slug: node.fields.slug
           }
