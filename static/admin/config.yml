@@ -12,6 +12,7 @@ collections:
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Post Author" name: "author" widget: "relation" collection: "authors" searchFields: ["name"] valueField: "name"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
@@ -26,4 +27,11 @@ collections:
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Type", name: "type", widget: "hidden", default: "recipe"}
+  - label: "Authors"
+    name: "authors"
+    folder: "src/static/admin/authors"
+    create: true
+    fields:
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Email", name: "email", widget: "string"}
       
