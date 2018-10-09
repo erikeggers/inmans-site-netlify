@@ -16,6 +16,7 @@ collections:
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Type", name: "type", widget: "hidden", default: "blog"}
+      - {label: "Post Author", name: "author", widget: "relation", collection: "authors", searchFields: ["name", "email", authorImage], valueField: "name", displayFields: ["name", "email", authorImage]}
   - label: "Recipes"
     name: "recipes"
     folder: "src/recipes"
@@ -28,9 +29,12 @@ collections:
       - {label: "Type", name: "type", widget: "hidden", default: "recipe"}
   - label: "Authors"
     name: "authors"
-    folder: "src/static/admin/authors"
+    folder: "static/admin/authors"
     create: true
     fields:
-      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Author Image", name: "authorImage", widget: "image"}
       - {label: "Email", name: "email", widget: "string"}
+      - {label: "Bio", name: "bio", widget: "markdown"}
+
       
