@@ -32,9 +32,9 @@ collections:
     folder: "static/admin/authors"
     create: true
     fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Author Image", name: "authorImage", widget: "image"}
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Image", name: "authorImage", widget: "image"}
       - {label: "Email", name: "email", widget: "string"}
-      - {label: "Bio", name: "bio", widget: "markdown"}
+      - {label: "Quick Bio", name: "quickBio", widget: "string"}
 
       
