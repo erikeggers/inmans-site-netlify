@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "Inman's",
-    desc: "Welcome to Inman Specialty Foods, LLC. This website specializes in \"Recipes born in the South from someone born in the South\". Our food items range from BBQ sauces and dry rubs to seafood items and more. We intend to add items when we can so check back from time to time to see whats new. Everything is intended to add a unique flavor to favorite recipes or visit our recipe page to get suggestions and see what we have created. You can even share yourown suggestions. We hope you come back time and time again to explore, share, and try new items you can't live without. Please tell your friends and family if you do."
+    desc: "We specialize in \"Recipes born in the South from someone born in the South\". Our food items range from BBQ sauces and dry rubs to seafood items and more. Everything is intended to add a unique flavor to favorite recipes or visit our recipe page to get suggestions and see what we have created. You can even share your own suggestions. We hope you come back time and time again to explore, share, and try new items you can't live without. Please tell your friends and family if you do."
   },
   //pathPrefix: "/inmans-site",
   plugins: [

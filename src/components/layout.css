@@ -248,7 +248,7 @@ h2 {
   font-family: 'Bree Serif', serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 1.62671rem;
+  font-size: 2.25rem;
   line-height: 1.1;
 }
 h3 {
@@ -377,7 +377,7 @@ p {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1.85rem;
 }
 figure {
   margin-left: 0;
@@ -616,4 +616,10 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 6% 4%;
 }

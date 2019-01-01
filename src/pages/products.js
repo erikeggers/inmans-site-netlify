@@ -24,23 +24,25 @@ export default class Products extends Component {
   render() {
     return (
       <Layout>
-        <ProductsWrapper>
-          <Product>
-            <img src={PalmettoGold} alt="Palmetto Gold" />
-          </Product>
-          <Product>
-            <img src={Pucker} alt="Pucker" />
-          </Product>
-          <Product>
-            <img src={SpicyPucker} alt="Spicy Pucker" />
-          </Product>
-          <Product>
-            <img src={AppleButter} alt="Apple Butter" />
-          </Product>
-          <Product>
-            <img src={SpicyAppleButter} alt="Spicy Apple Butter" />
-          </Product>
-        </ProductsWrapper>
+        <div className='content'>
+          <ProductsWrapper>
+            <Product>
+              <img src={PalmettoGold} alt="Palmetto Gold" />
+            </Product>
+            <Product>
+              <img src={Pucker} alt="Pucker" />
+            </Product>
+            <Product>
+              <img src={SpicyPucker} alt="Spicy Pucker" />
+            </Product>
+            <Product>
+              <img src={AppleButter} alt="Apple Butter" />
+            </Product>
+            <Product>
+              <img src={SpicyAppleButter} alt="Spicy Apple Butter" />
+            </Product>
+          </ProductsWrapper>
+        </div>
       </Layout>
     )
   }
