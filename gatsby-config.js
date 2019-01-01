@@ -40,7 +40,7 @@ module.exports = {
       options: {
         excerpt_separator: `<!-- end -->`
       }
-    }, 
+    },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     'gatsby-plugin-netlify-cms',
