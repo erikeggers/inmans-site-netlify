@@ -103,8 +103,7 @@ const IndexPage = ({ data }) => (
       </div>
       <div className="recipeContent">
         <h2>Recipes</h2>
-        <p>What good is a <b>great</b> sauce without a <b>great</b> recipe?</p>
-        <p>We offer a wide range of recipes and of course the perfect sauce or rub for it!</p>
+        <p>What good is a <b>great</b> sauce without a <b>great</b> recipe? We offer a wide range of recipes and of course the perfect sauce or rub for it!</p>
         <p>Have a recipe you would like to submit? Please contact us!</p>
         <Link to="/recipes">
           View Recipes
