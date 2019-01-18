@@ -2,14 +2,15 @@ import React from 'react'
 import PostListing from '../components/Posts/PostListing'
 import Layout from '../components/layout'
 import { graphql } from 'gatsby'
+import styled from 'styled-components'
 
 const BlogPage = ({data}) => (
   <Layout>
-    <div>
+    <BlogWrapper>
       {data.allMarkdownRemark.edges.map(({node}) => (
         <PostListing key={node.id} post={node} />
         ))}
-    </div>
+    </BlogWrapper>
   </Layout>
 )
 
@@ -39,4 +40,12 @@ query BlogMeta {
     }
   }
 }
+`
+const BlogWrapper = styled.div`
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 60px 8px 0 8px;
+  @media only screen and (max-width: 600px) {
+    padding: 40px 4px 0 4px;
+  } 
 `
