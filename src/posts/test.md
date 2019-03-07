@@ -1,8 +1,8 @@
 ---
 title: Test
-author: Dwight
-date: 2019-03-07T15:50:57.808Z
+author: Dwight Inman
+date: 2019-03-07T15:53:25.801Z
 thumbnail: /assets/ribs.jpg
 type: blog
 ---
-jhjhjhjhjjh
+Test
