@@ -45,7 +45,7 @@ exports.createPages = ({ graphql, actions }) => {
       result.data.blog.edges.forEach(({ node }) => {
         createPage({
           path: node.fields.slug,
-          component: path.resolve("./src/posts/PostPage.js"),
+          component: path.resolve("src/posts/PostPage.js"),
           context: {
             slug: node.fields.slug
           }
@@ -54,7 +54,7 @@ exports.createPages = ({ graphql, actions }) => {
       result.data.recipes.edges.forEach(({ node }) => {
         createPage({
           path: node.fields.slug,
-          component: path.resolve("./src/recipes/RecipePage.js"),
+          component: path.resolve("src/recipes/RecipePage.js"),
           context: {
             slug: node.fields.slug
           }
