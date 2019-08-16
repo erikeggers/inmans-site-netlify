@@ -19,7 +19,6 @@ const Product = styled.div`
   }
   
 `
-
 export default class Products extends Component {
   render() {
     return (

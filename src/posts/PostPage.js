@@ -1,13 +1,14 @@
 import React, { Component } from 'react'
 import Layout from '../components/layout'
 import { graphql } from 'gatsby'
+import styled from 'styled-components'
 
 export default class PostView extends Component {
   render() {
     const { data } = this.props
     return (
       <Layout>
-				<div>
+				<PostWrapper>
 					{data.markdownRemark.frontmatter.thumbnail && 
 						<img src={data.markdownRemark.frontmatter.thumbnail} alt="Inmans's"/> 
 					}
@@ -16,7 +17,7 @@ export default class PostView extends Component {
 					<div dangerouslySetInnerHTML= {{
 						__html: data.markdownRemark.html
 					}}/>
-				</div>
+				</PostWrapper>
 			</Layout>
     )
   }
@@ -38,4 +39,39 @@ export const query = graphql`
 			}
 		}
 	}
+`
+
+const PostWrapper = styled.article`
+	align: center;
+	max-width: 900px;
+	padding:1.5rem;
+	box-shadow:0 1px 2px #aaa;
+	background:white;
+	margin: 60px auto 30px auto; 
+	border-radius:3px;
+	h3 {
+		margin: 0;
+		padding: 0;
+	}
+	img {
+		margin: 0px auto 20px auto;
+		display: block;
+	}
+	p {
+		margin-top: 20px;
+	}
+	span {
+		font-size: 12px;
+		display: block;
+	}
+	a {
+		text-decoration: none;
+		color: #0A2A43;	
+	}
+	.postLink {
+		text-align: right;
+	}
+	@media only screen and (max-width: 600px) {
+    padding:1rem;
+  } 
 `

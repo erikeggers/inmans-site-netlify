@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
 
-
 const PostListing = ({post}) => (
 	<PostWrapper>
     {post.frontmatter.thumbnail &&
@@ -38,6 +37,9 @@ const PostWrapper = styled.article`
 	a {
 		text-decoration: none;
 		color: #0A2A43;	
+		:hover {
+			text-decoration: underline;
+		}
 	}
 	.postLink {
 		text-align: right;
