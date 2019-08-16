@@ -3,13 +3,8 @@ import { Link, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import Layout from '../components/layout'
 import styled from "styled-components"
-import WebFont from 'webfontloader';
 
-WebFont.load({
-  google: {
-    families: ['Bree Serif:300,400,700', 'Open Sans:300,400,700', 'sans-serif']
-  }
-});
+
 
 const IndexPage = ({ data }) => (
   <Layout>
