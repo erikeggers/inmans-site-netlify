@@ -2,10 +2,10 @@ import React from 'react'
 import { Link } from "gatsby"
 import logo from '../images/InmansLogoCream.png'
 import styled from "styled-components"
-import Headroom from 'react-headroom'
+// import Headroom from 'react-headroom'
 
 const Header = () => (
-  <StyledHeadroom>
+  // <StyledHeadroom>
     <HeaderWrapper>
       <HeaderContainer>
         <Link
@@ -38,12 +38,12 @@ const Header = () => (
         </nav>
       </HeaderContainer>
     </HeaderWrapper>
-  </StyledHeadroom>
+  // </StyledHeadroom>
 )
 
-const StyledHeadroom = styled(Headroom)`
-  height: 119px !important;
-`
+// const StyledHeadroom = styled(Headroom)`
+//   height: 119px !important;
+// `
 
 const HeaderWrapper = styled.div` 
   width: 100%;
