@@ -61,6 +61,7 @@ const IndexPage = ({ data }) => (
         style={{border:'none',overflow:'hidden'}} 
         scrolling="no" 
         frameBorder="0" 
+        title="facebook"
         allow="encrypted-media">
       </iframe>
     </SocialMedia>
