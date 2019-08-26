@@ -1,6 +1,7 @@
 ---
 title: Apple Butter BBQ Grilled Salmon
 date: ''
+thumbnail: /assets/ribs.jpg
 type: recipe
 ---
 > “Grilled Salmon is one of my dad’s favorites. He makes this on a charcoal grill which I think works best for the flavor.” – Dwight
