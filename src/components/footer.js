@@ -20,6 +20,12 @@ const Footer = () => (
         <li>
           <Link to="/recipes">Recipes</Link>
         </li>
+        <li>
+          <Link to="/shipping-and-returns">Shipping and Returns</Link>
+        </li>
+        <li>
+          <Link to="/privacypolicy">Privacy Policy</Link>
+        </li>
       </ul>
     </nav>
   </StyledFooter>
