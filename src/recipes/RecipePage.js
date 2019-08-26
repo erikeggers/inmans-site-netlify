@@ -12,7 +12,6 @@ export default class RecipeView extends Component {
 					{data.markdownRemark.frontmatter.thumbnail && 
 						<img src={data.markdownRemark.frontmatter.thumbnail} alt="Inmans's"/> 
 					}
-					<span>Posted by {data.markdownRemark.frontmatter.author} on {data.markdownRemark.frontmatter.date}</span>
 					<h1>{data.markdownRemark.frontmatter.title}</h1>
 					<div dangerouslySetInnerHTML= {{
 						__html: data.markdownRemark.html
