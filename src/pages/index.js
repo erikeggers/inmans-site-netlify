@@ -185,21 +185,22 @@ query SiteMeta {
       desc
     }
   }
-  imageOne: file(relativePath: { regex: "/firepit/" }) {
+  imageOne: file(relativePath: { eq: "images/firepit.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
         ...GatsbyImageSharpFluid
       }
     }
   }
-  imageTwo: file(relativePath: { regex: "/meatonplate/" }) {
+ 
+  imageTwo: file(relativePath: { eq: "images/meatonplate.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
         ...GatsbyImageSharpFluid
       }
     }
   }
-  imageThree: file(relativePath: { regex: "/apple/" }) {
+  imageThree: file(relativePath: { eq: "images/apple.jpeg" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
         ...GatsbyImageSharpFluid
