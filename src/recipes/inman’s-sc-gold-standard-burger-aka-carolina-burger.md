@@ -23,24 +23,16 @@ Diced yellow onions (Optional)
 
 Inman’s SC Gold Standard BBQ Sauce
 
-Grilled or toasted hamburger bun.
-
-
+Grilled or toasted hamburger bun
 
 **Directions:**
 
 Build the burger in the following order from bottom to top.
 
 1. Bottom hamburger bun smeared Inman’s SC Gold Standard BBQ Sauce.
-
 2. Cooked hamburger patty with melted American cheese on it.
-
 3. Dill pickle chips.
-
 4. Diced yellow onion.
-
 5. Chili
-
 6. Cole slaw
-
 7. Top hamburger bun smeared with Inman’s SC Gold Standard BBQ Sauce.
