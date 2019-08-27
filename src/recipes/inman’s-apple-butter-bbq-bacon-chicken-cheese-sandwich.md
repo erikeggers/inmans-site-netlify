@@ -2,7 +2,7 @@
 title: 'Inman’s Apple Butter BBQ Bacon, Chicken, Cheese Sandwich'
 author: Dwight Inman
 date: 2019-07-15T07:10:57.161Z
-thumbnail: /assets/inmanslogo.png
+thumbnail: /assets/chicken.jpg
 type: recipe
 ---
 **Ingredients:**
