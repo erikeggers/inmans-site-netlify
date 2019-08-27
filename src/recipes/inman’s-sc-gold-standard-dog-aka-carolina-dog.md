@@ -2,7 +2,7 @@
 title: 'Inman’s SC Gold Standard Dog aka: Carolina Dog'
 author: Dwight Inman
 date: 2019-07-15T07:18:57.501Z
-thumbnail: /assets/inmanslogo.png
+thumbnail: /assets/pig.jpg
 type: recipe
 ---
 Inman’s SC Gold Standard Dog aka: Carolina Dog
