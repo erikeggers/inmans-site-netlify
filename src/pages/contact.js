@@ -16,13 +16,21 @@ const ContactPage = () => (
         action="/thank-you"
       >
         <input type="hidden" name="form-name" value="JSX Form" />
+        <label>Your Name:</label>
+        <input type="text" name="name" />
         <label>Your Email:</label>
         <input type="email" name="email" />
-        <br />
+        <label>
+          Reason for contacting:{' '}
+          <select name="reason[]" multiple>
+            <option value="returns">Returns</option>
+            <option value="buy">Buy</option>
+          </select>
+        </label>
         <label>Message:</label>
         <textarea name="message" />
         <br />
-        <ReCAPTCHA sitekey={process.env.SITE_RECAPTCHA_KEY} />
+        <ReCAPTCHA sitekey={process.env.GATSBY_RECAPTCHA_KEY} />
         <button type="submit">Send</button>
       </form>
     </Wrapper>
