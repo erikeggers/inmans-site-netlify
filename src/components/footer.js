@@ -26,6 +26,9 @@ const Footer = () => (
         <li>
           <Link to="/privacypolicy">Privacy Policy</Link>
         </li>
+        <li>
+          <Link to="/termsofuse">Terms of Use</Link>
+        </li>
       </ul>
     </nav>
   </StyledFooter>

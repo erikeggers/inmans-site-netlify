@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Layout from '../components/layout'
 import styled from "styled-components"
-
+import { graphql } from 'gatsby'
 import PalmettoGold from '../images/PalmettoGold.jpg'
 import Pucker from '../images/Pucker.jpg'
 import SpicyPucker from '../images/SpicyPucker.jpg'
@@ -46,3 +46,36 @@ export default class Products extends Component {
     )
   }
 }
+
+// export const query = graphql`
+// query allShopifyProducts {
+//   edges {
+//     node {
+//       id
+//       title
+//       description
+//       descriptionHtml
+//       variants {
+//         edges {
+//           node {
+//             id
+//             title
+//             price
+//             selectedOptions {
+//               name
+//               value
+//             }
+//           }
+//         }
+//       }
+//       images {
+//         edges {
+//           node {
+//             id
+//             src
+//           }
+//         }
+//       }
+//     }
+//   }
+// }`

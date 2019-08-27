@@ -6,6 +6,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import Header from './header'
 import Footer from './footer'
 import './layout.css'
+import styled from 'styled-components'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -30,14 +31,18 @@ const Layout = ({ children }) => (
           <html lang="en" />
         </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <div style={{marginBottom: '180px'}}>
+        <StyledContainer>
           {children}
-        </div>
+        </StyledContainer>
         <Footer/>
       </>
     )}
   />
 )
+
+const StyledContainer = styled.div`
+  margin-bottom: 180px;
+`
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
