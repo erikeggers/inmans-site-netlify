@@ -42,6 +42,12 @@ const Layout = ({ children }) => (
 
 const StyledContainer = styled.div`
   margin-bottom: 180px;
+  @media only screen and (max-width: 870px) {
+    padding-top: 46px;
+  }
+  @media only screen and (max-width: 670px) {
+    padding-top: 72px;
+  }
 `
 
 Layout.propTypes = {
