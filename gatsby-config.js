@@ -56,6 +56,16 @@ module.exports = {
         icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: "gatsby-source-shopify",
+      options: {
+        shopName: "inman-specialty-foods-llc",
+        accessToken: "2ae0de9b0b4fdc59500bbcac4e2deb3c",
+        verbose: true,
+        paginationSize: 250,
+        includeCollections: ["shop", "content"],
+      },
+    },
     'gatsby-plugin-offline',
   ],
 }
