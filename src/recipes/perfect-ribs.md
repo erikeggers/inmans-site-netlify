@@ -2,7 +2,7 @@
 title: Perfect Ribs
 author: Dwight Inman
 date: 2019-07-15T07:20:35.680Z
-thumbnail: /assets/inmanslogo.png
+thumbnail: /assets/pig.jpg
 type: recipe
 ---
 **Ingredients:**
