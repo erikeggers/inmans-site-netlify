@@ -23,7 +23,6 @@
     "netlify-cms": "^2.9.7",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
-    "react-google-recaptcha": "^2.0.0-rc.1",
     "react-headroom": "github:tommyka/react-headroom#deploy",
     "react-helmet": "^5.2.0",
     "react-pose": "^4.0.8",
