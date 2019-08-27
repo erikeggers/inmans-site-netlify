@@ -2,7 +2,7 @@
 title: Apple Butter BBQ Grilled Salmon
 author: Dwight Inman
 date: 2019-07-15T05:46:25.749Z
-thumbnail: /assets/inmanslogo.png
+thumbnail: /assets/salmon.jpg
 type: recipe
 ---
 > “Grilled Salmon is one of my dad’s favorites. He makes this on a charcoal grill which I think works best for the flavor.” – Dwight
