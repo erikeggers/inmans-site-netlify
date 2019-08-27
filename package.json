@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "add": "^2.0.6",
     "babel-plugin-styled-components": "^1.8.0",
     "gatsby": "^2.13.67",
     "gatsby-cli": "^2.7.31",
@@ -22,13 +23,15 @@
     "netlify-cms": "^2.9.7",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
+    "react-google-recaptcha": "^2.0.0-rc.1",
     "react-headroom": "github:tommyka/react-headroom#deploy",
     "react-helmet": "^5.2.0",
     "react-pose": "^4.0.8",
     "react-typography": "^0.16.18",
     "styled-components": "^4.1.3",
     "typography": "^0.16.18",
-    "typography-theme-fairy-gates": "^0.16.18"
+    "typography-theme-fairy-gates": "^0.16.18",
+    "yarn": "^1.17.3"
   },
   "keywords": [
     "gatsby"
