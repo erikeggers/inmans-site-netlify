@@ -2,7 +2,7 @@
 title: 'Inman’s SC Gold Standard Burger (aka: Carolina Burger)'
 author: Dwight Inman
 date: 2019-07-15T07:15:44.168Z
-thumbnail: /assets/inmanslogo.png
+thumbnail: /assets/cattle.jpg
 type: recipe
 ---
 > “In the Carolina’s we have our own style of burger the Carolina Burger. There are many different variations of this recipe, but the main ingredients pretty much stay the same. Cheeseburger topped with pickles, hot dog chili, Cole slaw, and some style of mustard. This is my version.” – Dwight
