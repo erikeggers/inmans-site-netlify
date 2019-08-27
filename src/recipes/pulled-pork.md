@@ -2,7 +2,7 @@
 title: Pulled Pork
 author: Dwight Inman
 date: 2019-07-15T07:26:08.369Z
-thumbnail: /assets/inmanslogo.png
+thumbnail: /assets/pig.jpg
 type: recipe
 ---
 **Ingredients:**
