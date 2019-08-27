@@ -2,22 +2,27 @@ import React from 'react'
 import Layout from '../components/layout'
 // import { graphql } from 'gatsby'
 import styled from 'styled-components'
-// import ReCAPTCHA from "react-google-recaptcha";
+import ReCAPTCHA from 'react-google-recaptcha'
 
 // const LocationsPage = ({data}) => (
 const ContactPage = () => (
   <Layout>
     <Wrapper>
-      <form name="Contact Form" method="POST" data-netlify="true" action="/thank-you">
-        <input type="hidden" name="form-name" value="Contact Form" />
-        <div>
-          <label>Your Email:</label>
-          <input type="email" name="email" />
-        </div>
-        <div>
-          <label>Message:</label>
-          <textarea name="message" />
-        </div>
+      <form
+        name="Contact Form"
+        method="POST"
+        data-netlify="true"
+        data-netlify-recaptcha="true"
+        action="/thank-you"
+      >
+        <input type="hidden" name="form-name" value="JSX Form" />
+        <label>Your Email:</label>
+        <input type="email" name="email" />
+        <br />
+        <label>Message:</label>
+        <textarea name="message" />
+        <br />
+        <ReCAPTCHA sitekey={process.env.GATSBY_RECAPTCHA_KEY} />
         <button type="submit">Send</button>
       </form>
     </Wrapper>
