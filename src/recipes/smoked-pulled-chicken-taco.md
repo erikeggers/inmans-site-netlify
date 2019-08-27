@@ -2,7 +2,7 @@
 title: Smoked Pulled Chicken Taco
 author: Dwight Inman
 date: 2019-07-15T07:22:19.814Z
-thumbnail: /assets/inmanslogo.png
+thumbnail: /assets/chicken.jpg
 type: recipe
 ---
 **Ingredients:**
