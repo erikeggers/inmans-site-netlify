@@ -7,6 +7,8 @@ import styled from 'styled-components'
 const RecipesPage = ({data}) => (
   <Layout>
     <RecipeWrapper>
+    <h2>Recipes</h2>
+    <p className="tagline">Try these delicious recipes using Inman's!</p>
       {data.allMarkdownRemark.edges.map(({node}) => (
         <RecipeListing key={node.id} post={node} />
         ))}
@@ -49,4 +51,11 @@ const RecipeWrapper = styled.div`
   @media only screen and (max-width: 600px) {
     padding: 40px 4px 0 4px;
   } 
+  h2 {
+    padding-left: 18px;
+    margin-bottom: 0;
+  }
+  .tagline {
+    padding-left: 18px;
+  }
 `
