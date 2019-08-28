@@ -9,6 +9,50 @@ const ContactPage = () => (
     <Wrapper>
       <h2>Contact Us</h2>
       <form
+        name="contact"
+        method="POST"
+        netlify-honeypot="bot-field"
+        data-netlify="true"
+        action="/thank-you"
+      >
+        <p class="hidden">
+          <label>
+            Don’t fill this out if you're human: <input name="bot-field" />
+          </label>
+        </p>
+        <p>
+          <label>
+            Name: <input type="text" name="name" />
+          </label>
+        </p>
+        <p>
+          <label>
+            Email: <input type="text" name="email" />
+          </label>
+        </p>
+        {/* <p>
+          <label>
+            Reason for contacting:
+            <select name="role[]" multiple>
+              <option value="general">General Questions</option>
+              <option value="buy">Wholesale Inquiry</option>
+              <option value="returnsAndShipping">Returns and Shipping</option>
+              <option value="suggestion">General Suggestion</option>
+              <option value="store">Recommend a store</option>
+              <option value="recipe">Submit a recipe</option>
+            </select>
+          </label>
+        </p> */}
+        <p>
+          <label>
+            Message: <textarea name="message"></textarea>
+          </label>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form>
+      {/* <form
         name="Contact Form"
         method="POST"
         data-netlify="true"
@@ -38,7 +82,7 @@ const ContactPage = () => (
         <textarea name="message" placeholder="Type your message here..." required/>
         <br />
         <button type="submit">Send</button>
-      </form>
+      </form> */}
     </Wrapper>
   </Layout>
 )
