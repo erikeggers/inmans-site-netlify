@@ -9,6 +9,7 @@ export default class About extends Component {
       <Layout>
         <AboutWrapper>
           <h2>About Inman's</h2>
+          <img src={dwight} alt="Dwight Inman" />
           <p>
             Born in the Shenandoah Valley of Virginia I have spent my entire
             life living and working in the Southeast. Places I have called home
@@ -46,7 +47,6 @@ export default class About extends Component {
             and still do.
           </p>
           <p>-Dwight</p>
-          <img src={dwight} alt="Dwight Inman" />
         </AboutWrapper>
       </Layout>
     )
@@ -58,10 +58,10 @@ const AboutWrapper = styled.div`
   margin: 0 auto;
   padding: 60px 8px 0 8px;
   @media only screen and (max-width: 600px) {
-    padding: 40px 4px 0 4px;
+    padding: 40px 8px 0 8px;
   }
   img {
-    margin: 20px auto 0 auto;
+    margin: 20px auto 20px auto;
     display: block;
   }
 `
