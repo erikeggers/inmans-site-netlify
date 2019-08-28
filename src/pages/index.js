@@ -14,7 +14,7 @@ const IndexPage = ({ data }) => (
       />
       <div className="text">
         <h2>Flavors born in the South</h2>
-        <Link to="/products">View Products</Link>
+        <a href="https://inman-specialty-foods-llc.myshopify.com/collections/all">View Products</a>
       </div>
     </ImageWrapper>
     <div style={{ borderTop: '30px solid #FF6551' }}>
@@ -95,6 +95,7 @@ const IndexPage = ({ data }) => (
         frameBorder="0"
         allowtransparency="true"
         allow="encrypted-media"
+        title="facebook"
       ></iframe>
     </SocialMedia>
   </Layout>
