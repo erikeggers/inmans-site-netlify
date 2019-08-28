@@ -28,11 +28,12 @@ const ContactPage = () => (
         <label>
           Reason for contacting:
           <select name="reason[]" required>
-            <option value="buy">Buy</option>
-            <option value="returns">Returns</option>
-            <option value="note">Just want to say hi!</option>
-            <option value="suggestion">Suggestion</option>
-            <option value="suggestion">Submit a recipe</option>
+            <option value="general">General Questions</option>
+            <option value="buy">Wholesale Inquiry</option>
+            <option value="returnsAndShipping">Returns and Shipping</option>
+            <option value="suggestion">General Suggestion</option>
+            <option value="store">Recommend a store</option>
+            <option value="recipe">Submit a recipe</option>
           </select>
         </label>
         <label>Message:</label>

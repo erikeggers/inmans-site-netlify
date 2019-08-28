@@ -46,7 +46,13 @@ const StyledContainer = styled.div`
     padding-top: 46px;
   }
   @media only screen and (max-width: 670px) {
+    padding-top: 46px;
+  }
+  @media only screen and (max-width: 534px) {
     padding-top: 72px;
+  }
+  @media only screen and (max-width: 534px) {
+    padding-top: 60px;
   }
 `
 

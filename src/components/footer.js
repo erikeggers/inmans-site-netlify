@@ -21,6 +21,9 @@ const Footer = () => (
           <Link to="/recipes">Recipes</Link>
         </li>
         <li>
+          <Link to="/contact">Contact</Link>
+        </li>
+        <li>
           <Link to="/shipping-and-returns">Shipping and Returns</Link>
         </li>
         <li>
@@ -48,14 +51,16 @@ const StyledFooter = styled.footer`
     margin: 0;
   }
   nav, ul {
+    font-size: 14px;
     margin: 0;
     padding: 0;
     ul {
       list-style-type: none;
       text-align: center;
       margin: 0;
+      margin-bottom: 10px;
       li {
-        padding: 10px;
+        padding: 5px 10px 0 10px;
         display: inline-block;
         margin: 0;
         a {

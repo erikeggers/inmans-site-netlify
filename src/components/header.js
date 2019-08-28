@@ -20,9 +20,6 @@ const Header = () => (
         <nav>
           <ul>
             <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
               <Link to="/products">Products</Link>
             </li>
             <li>
@@ -33,6 +30,9 @@ const Header = () => (
             </li>
             <li>
               <Link to="/recipes">Recipes</Link>
+            </li>
+            <li>
+              <Link to="/contact">Contact</Link>
             </li>
           </ul>
         </nav>
@@ -83,7 +83,7 @@ const HeaderContainer = styled.div`
       @media only screen and (max-width: 670px) {
         font-size: 18px;
         flex-wrap: wrap;
-        max-width: 320px;
+        max-width: 540px;
         justify-content: center;
       } 
       li {
@@ -98,6 +98,9 @@ const HeaderContainer = styled.div`
           :hover {
             text-decoration: underline;
           }
+          @media only screen and (max-width: 670px) {
+            margin: 0 10px;
+          } 
         }
       }
     }

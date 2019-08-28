@@ -60,7 +60,7 @@ const IndexPage = ({ data }) => (
             offer a wide range of recipes and of course the perfect sauce or rub
             for it!
           </p>
-          <Link to="/recipes">View Recipes</Link>
+          <Link to="/recipes">View</Link>
         </div>
       </Cta>
       <Cta>
@@ -71,11 +71,12 @@ const IndexPage = ({ data }) => (
           />
         </div>
         <div className="cta-content">
-          <h2>Blog</h2>
+          <h2>Locations</h2>
           <p>
-            Follow the story of Inman's by checking out the latest blog posts.
+            Can't wait to get your hands on a product? Checkout our fantastic
+            partners that carry Inman's!
           </p>
-          <Link to="/blog">View Blog</Link>
+          <Link to="/locations">View</Link>
         </div>
       </Cta>
     </CtaContainer>
@@ -120,8 +121,11 @@ const ImageWrapper = styled.div`
     padding: 0 6%;
     h2 {
       color: #fffaef;
-      font-size: 70px;
+      font-size: 60px;
       margin-bottom: 40px;
+      @media only screen and (max-width: 670px) {
+        font-size: 40px;
+      }
     }
 
     a {
@@ -246,7 +250,7 @@ export const query = graphql`
         }
       }
     }
-    imageThree: file(relativePath: { eq: "images/apple.jpeg" }) {
+    imageThree: file(relativePath: { eq: "images/map.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid
