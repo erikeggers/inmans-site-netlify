@@ -15,8 +15,6 @@ const ContactPage = () => (
         netlify-honeypot="bot-field"
         action="/thank-you"
       >
-        <input type="hidden" name="form-name" value="JSX Form" />
-
         <label className="hidden">
           Don’t fill this out if you're human: <input name="bot-field" />
         </label>
