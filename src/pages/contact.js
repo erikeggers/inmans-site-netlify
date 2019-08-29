@@ -25,13 +25,24 @@ const ContactPage = () => (
           <label htmlFor="email">Email</label>
           <input type="text" name="email" id="email" />
         </div>
+        <label>
+          Reason for contacting:
+          <select name="reason[]" required>
+            <option value="general">General Questions</option>
+            <option value="buy">Wholesale Inquiry</option>
+            <option value="returnsAndShipping">Returns and Shipping</option>
+            <option value="suggestion">General Suggestion</option>
+            <option value="store">Recommend a store</option>
+            <option value="recipe">Submit a recipe</option>
+          </select>
+        </label>
         <div className="field">
           <label htmlFor="message">Message</label>
           <textarea name="message" id="message" rows="6" />
         </div>
       
       
-            <input type="submit" value="Send Message" className="special" />
+            <button type="submit" value="Send Message" className="special">Send</button>
 
  
             
