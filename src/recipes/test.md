@@ -2,7 +2,7 @@
 title: Caramelized Onions
 author: Dwight Inman
 date: 2019-07-15T06:32:52.991Z
-thumbnail: /assets/inmanslogo.png
+thumbnail: /assets/onions.png
 type: recipe
 ---
 **Ingredients:**
