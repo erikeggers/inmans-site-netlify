@@ -1,13 +1,13 @@
 import React from 'react'
 import Layout from '../components/layout'
-// import { graphql } from 'gatsby'
+import { Link } from 'gatsby'
 import styled from 'styled-components'
 
 // const LocationsPage = ({data}) => (
 const LocationsPage = () => (
   <Layout>
     <Wrapper>
-      <h1>Check back for locations you can purchase our products.</h1>
+      <h3>Check back for locations where you can purchase our products or feel free to drop us a line using our <Link to="/contact">Contact Page</Link> if you know of a store that would like to carry Inman Specialty Foods items.</h3>
       {/* {data.allMarkdownRemark.edges.map(({node}) => (
         <RecipeListing key={node.id} post={node} />
         ))} */}

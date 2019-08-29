@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "Inman's",
-    desc: "We specialize in \"Flavors born in the South\". Our food items range from BBQ sauces and dry rubs to seafood items and more. Everything is intended to add a unique flavor to favorite recipes or visit our recipe page to get suggestions and see what we have created. You can even share your own suggestions. We hope you come back time and time again to explore, share, and try new items you can't live without. Please tell your friends and family if you do."
+    desc: "We specialize in \"Flavors born in the South\". Our food items range from BBQ sauces and dry rubs to seafood items and more. Everything is intended to add a unique flavor to favorite recipes or visit our recipe page to get suggestions and see what we have created. You can even share your own suggestions. We hope you come back time and time again to explore, share, and try new items you can't live without. Please tell your friends and family when you do."
   },
   //pathPrefix: "/inmans-site",
   plugins: [
@@ -47,13 +47,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'inmans-specialty-foods',
+        short_name: 'inmans',
         start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
+        background_color: '#0A2A43',
+        theme_color: '#0A2A43',
         display: 'minimal-ui',
-        icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
+        icon: 'src/images/InmansLogo.png', // This path is relative to the root of the site.
       },
     },
     {
