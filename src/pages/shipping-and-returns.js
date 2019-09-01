@@ -59,7 +59,7 @@ export default class ShippingReturns extends Component {
             If your products has sustained damage in the shipping process,
             please use our online contact form. In addition, please submit a
             photo of the damaged product and packaging to
-            admin@inmanspecialtyfoods.com
+            admin@inmanspecialtyfoods.com.
           </p>
           <p>
             If our company has determined a valid claim has been submitted, we
