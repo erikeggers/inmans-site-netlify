@@ -8,6 +8,12 @@ const ContactPage = () => (
   <Layout>
     <Wrapper>
       <h2>Contact Us</h2>
+      <div>
+        <b>Mailing address</b>
+        <p>Inman Specialty Foods, LLC<br/> 
+        P.O. Box 26204 <br/>
+        Greenville, SC 29616</p>
+      </div>
       <form
         name="contact"
         method="post"
@@ -40,13 +46,10 @@ const ContactPage = () => (
           <label htmlFor="message">Message</label>
           <textarea name="message" id="message" rows="6" />
         </div>
-      
-      
-            <button type="submit" value="Send Message" className="special">Send</button>
 
- 
-            
-
+        <button type="submit" value="Send Message" className="special">
+          Send
+        </button>
       </form>
       {/* <form
         name="Contact Form"

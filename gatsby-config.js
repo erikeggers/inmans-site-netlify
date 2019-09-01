@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "Inman's",
-    desc: "We specialize in \"Flavors born in the South\". Our food items range from BBQ sauces and dry rubs to seafood items and more. Everything is intended to add a unique flavor to favorite recipes or visit our recipe page to get suggestions and see what we have created. You can even share your own suggestions. We hope you come back time and time again to explore, share, and try new items you can't live without. Please tell your friends and family when you do."
+    desc: "We specialize in \"Flavors born in the South\". Our food items range from BBQ sauces and dry rubs to seafood items and more. Everything is intended to add a unique flavor to ​your​ favorite recipes or visit our recipe page to get suggestions and see what we have created. You can even share your own suggestions. We hope you come back time and time again to explore, share, and try new items you can't live without. Please tell your friends and family when you do."
   },
   //pathPrefix: "/inmans-site",
   plugins: [
