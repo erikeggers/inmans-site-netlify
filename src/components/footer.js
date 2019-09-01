@@ -5,7 +5,7 @@ import styled from "styled-components"
 
 const Footer = () => (
   <StyledFooter>
-    <p>Inman Specialty Foods &copy; 2019</p>
+    <p>Inman Specialty Foods, LLC &copy; 2019</p>
     <nav>
       <ul>
         <li>
