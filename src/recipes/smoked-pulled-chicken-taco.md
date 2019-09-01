@@ -9,7 +9,7 @@ type: recipe
 
 2 oz. Freshly Smoked Pulled Chicken (You can substitute a freshly cooked and pulled rotisserie chicken from your local grocery store)
 
-Pico de Gallo (Link to recipe)
+Pico de Gallo 
 
 Shredded Cheddar Cheese
 
