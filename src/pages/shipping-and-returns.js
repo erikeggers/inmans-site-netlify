@@ -52,15 +52,14 @@ export default class ShippingReturns extends Component {
           <p>
             All returns must be submitted within 7 days of receiving your
             shipment. We reserve the right to limit the amount of claims per
-            customer. All returns must be submitted using our online return
-            form.
+            customer. All returns must be submitted using our contact form.
           </p>
           <h3>Damaged Product</h3>
           <p>
             If your products has sustained damage in the shipping process,
-            please use our online return form. Please provide all details
-            required on the form. In addition, please submit a photo of the
-            damaged product and packaging to admin@inmanspecialtyfoods.com
+            please use our online contact form. In addition, please submit a
+            photo of the damaged product and packaging to
+            admin@inmanspecialtyfoods.com
           </p>
           <p>
             If our company has determined a valid claim has been submitted, we
@@ -68,8 +67,8 @@ export default class ShippingReturns extends Component {
           </p>
           <h3>Received Wrong Product</h3>
           <p>
-            If you receive the wrong product, please use our online return form.
-            Please provide all details required on the form.{' '}
+            If you receive the wrong product, please use our contact form.
+            Please provide all details required on the form.
           </p>
           <p>
             If you received the wrong product due to an error on our behalf the
@@ -81,7 +80,7 @@ export default class ShippingReturns extends Component {
 
           <h3>Ordered Wrong Product</h3>
           <p>
-            If you ordered the wrong product, please use our online return form.
+            If you ordered the wrong product, please use our contact form.
             Please provide all details required on the form.
           </p>
           <p>
