@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Layout from '../components/layout'
-import dwight from '../images/DwightPicture.jpg'
+import dwight from '../images/dwightphoto.jpg'
 import styled from 'styled-components'
 
 export default class About extends Component {
@@ -11,13 +11,13 @@ export default class About extends Component {
           <h2>About Inman's</h2>
           <img src={dwight} alt="Dwight Inman" />
           <p>
-            Born in the Shenandoah Valley of Virginia I have spent my entire
-            life living and working in the Southeast. Places I have called home
-            include Virginia, North Carolina, Tennessee, Georgia, and South
-            Carolina. I even spent about two years in Dallas, Texas. Most of my
-            career has been spent in the restaurant industry. From small 'mom
-            and pop" restaurants to regional and even nationally recognized
-            chains.
+            Born in the Shenandoah Valley of Virginia I have spent pretty much
+            my entire life living and working in the Southeast. Places I have
+            called home include Virginia, North Carolina, Tennessee, Georgia,
+            and South Carolina. I even spent about two years in Dallas, Texas.
+            Most of my career has been spent in the restaurant industry. From
+            small 'mom and pop" restaurants to regional and even nationally
+            recognized chains.
           </p>
 
           <p>

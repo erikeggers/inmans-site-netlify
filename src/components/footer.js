@@ -9,7 +9,7 @@ const Footer = () => (
     <nav>
       <ul>
         <li>
-          <Link to="/products">Products</Link>
+          <a href="https://inman-specialty-foods-llc.myshopify.com/collections/all">Products</a>
         </li>
         <li>
           <Link to="/about">About</Link>

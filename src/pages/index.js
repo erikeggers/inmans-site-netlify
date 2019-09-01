@@ -83,7 +83,7 @@ const IndexPage = ({ data }) => (
     <SocialMedia>
       <h2>Let's get social</h2>
       <p>
-        Follow us on Facebook to stay update date with our latest products and
+        Follow us on Facebook to stay up to date with our latest products and
         events!
       </p>
       <iframe
