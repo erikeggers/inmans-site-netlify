@@ -21,4 +21,4 @@ Salt to taste
 
 Mixed all ingredients in a bowl with a tight fitting lid. Refrigerate for a minimum of two hours so the flavors can blend. Keep refrigerated until ready to use. 
 
-Note*  Pico de Gallo is best when served fresh therefore this recipe is intentionally designed to make a small amount but you can easily mutliple it if you have alarge gathering or need more. I suggest using what you can and then discarding any unused portion after 3-4 days.
+Note*  Pico de Gallo is best when served fresh therefore this recipe is intentionally designed to make a small amount but you can easily mutliply it if you have a large gathering or need more. I suggest using what you can and then discarding any unused portion after 3-4 days.
