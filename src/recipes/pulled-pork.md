@@ -18,7 +18,7 @@ Your favorite Inman’s BBQ Sauce
 1. Rinse pork butt and pat dry with paper towel.
 2. Liberally coat pork butt with Inman’s Smokehouse Dry Rub on all sides.
 3. Place pork butt, fat cap up, in smoker and smoke for 10 to 12 hours at 225 degrees. Remove from smoker when internal temperature reaches 195-200 degrees.
-4. Remove pork butt from smoker. Wrap pork butt tightly with aluminum foil and place in a well-insulated cooler for 1 to 2 hours.
+4. Wrap pork butt tightly with aluminum foil and place in a well-insulated cooler for 1 to 2 hours.
 5. Pull pork butt removing and discarding bone and discarding most of the fat.
 6. Serve immediately with your favorite Inman’s BBQ Sauce.
 
