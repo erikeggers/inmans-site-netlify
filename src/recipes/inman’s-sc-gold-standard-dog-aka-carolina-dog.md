@@ -11,7 +11,7 @@ Inman’s SC Gold Standard Dog aka: Carolina Dog
 
 **Ingredients:**
 
-One cooked all beef hot dog (I prefer my hot dogs grilled)
+One cooked hot dog (I prefer beef hot dogs and I liked them grilled)
 
 Shredded sharp cheddar cheese
 
@@ -27,24 +27,17 @@ Inman’s SC Gold Standard BBQ Sauce
 
 Steamed hot dog bun.
 
-****
+- - -
 
 **Directions:**
 
 Construct the hot dog in the following order from bottom to top.
 
 1. Steamed hot dog bun.
-
 2. Cooked all beef hot dog.
-
 3. Inman’s SC Gold Standard BBQ Sauce.
-
 4. Shredded cheddar cheese.
-
 5. Diced yellow onions.
-
 6. Dill pickle relish.
-
 7. Hot dog chili.
-
 8. Cole slaw.
