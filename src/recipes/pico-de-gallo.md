@@ -9,13 +9,13 @@ type: recipe
 
 1/3 cup 1/4" diced Red Onion
 
-1 1/4" diced Jalapeno (About 3" long seeds and stem removed)
+1 1/4" diced small Jalapeno (About 3" long seeds and stem removed)
 
 1 clove garlic minced
 
 1 tbl. spoon fresh cilantro leaves minced
 
-Juice from one line
+Juice from one lime
 
 Salt to taste
 
